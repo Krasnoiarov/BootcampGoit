@@ -1,0 +1,8 @@
+wrapper>header+main+footer
+
+    header
+    nav>ul>li*4+a{text}
+
+    main footer
+
+    main>aricle*4>img[width height]+p+h2+p^^footer>button
