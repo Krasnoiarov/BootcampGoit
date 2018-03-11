@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #23faff;
+    display: inline-block;
+    padding: 4px;
+    margin: auto;
+}
+h1 {
+    display: inline-block;
+    padding-left: 24px;
+}
+nav {
+    display: inline-block;
+    margin-left: 40%;
+}
+main {
+    background: #1b4eff;
+    }
+a:hover {
+    background: #c9abff;
+    color: #ff2827;
+}
+ul li {
+    display: inline-block;
+    padding: 15px;
+}
+ul li:hover {
+    background: #fff328;
+}
+h2 {
+    margin-bottom: 10px;
+}
+.image {
+    padding: 27.5px;
+}
+.link {
+    text-align: center;
+}
+.txt {
+    padding: 10px;
+    padding-left: 29px;
+}
+a {
+    display: block;
+    background: #12fcff;
+}

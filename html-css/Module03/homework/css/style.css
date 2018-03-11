@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 85%;
+    background: #26ffdf;
+    margin: auto;
+}
+header {
+    padding: 10px;
+    margin: auto;
+    display: block;
+}
+nav {
+    text-align: center;
+}
+ul li {
+    display: inline-block;
+    padding: 20px;
+}
+a {
+    display: block;
+    background: white;
+
+}

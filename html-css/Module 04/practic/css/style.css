@@ -1,0 +1,131 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; /*bszbb*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/*Шапка сайта*/
+.wrap1 {
+    background-color: #f7fdfe;
+}
+.container {
+    max-width: 940px; /*максимальная ширина*/
+    margin: auto;
+}
+.logo {
+    text-transform: uppercase;
+    color: #82868f;
+    font-size: 30px;
+    text-decoration: none; /*убрать ссылку*/
+    margin-right: 510px;
+}
+.logo, .nav, .nav-item {
+    display: inline-block;
+}
+ul {
+    list-style: none; /*Убираем точки списка*/
+}
+.header {
+    padding: 20px 0; /*отступ сверху и снизу для всего класса хедер*/
+}
+.nav-link {
+    color: #82868f;
+    font-size: 14px;
+    text-decoration: none; /*Убираем синие ссылки*/
+    text-transform: uppercase;
+    display: block;
+    padding: 15px 18px;
+}
+.nav-item:hover > .nav-link { /*При наведении на ул меняется класс нав-линк*/
+    background-color: #0ebfdd; /*Цвет фона*/
+    color: #f7fdfe; /*Цвет текста*/
+    border-radius: 22px;
+}
+/*info-style*/
+.wrap2 {
+    background-image: url("../img/img-1.jpg"); /*вышли из папки цсс и зашли в имг*/
+    background-repeat: no-repeat;
+    -webkit-background-size: cover; /*bgszco*/
+    background-size: cover;
+    background-attachment: fixed; /*bgaf паралакс эффект*/
+}
+.info {
+    padding: 410px 0 80px; /*вверх,по бокам 0, снизу 80*/
+}
+.title {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 700; /*Жирность шрифта*/
+    color: #f7fdfe;
+    margin-bottom: 40px;
+}
+.text {
+    text-align: center;
+    font-size: 20px;
+    /*font-weight: 700; !*Жирность шрифта*!*/
+    color: #f7fdfe;
+}
+/*section-about*/
+.about {
+    padding: 70px 0 75px;
+}
+.title-about {
+    color: #0ebfdd;
+}
+.text-about {
+    color: #45494d;
+}
+.wrap4 {
+    background-color: #0ebfdd;
+}
+.team {
+    padding: 60px 0 65px;
+}
+.team-item {
+    display: inline-block;
+    margin-right: 70px; /*отступ от картинок*/
+}
+.team-list {
+    text-align: center;
+}
+.team-item:last-child {
+    margin-right: 0; /*Убрать отступ справа*/
+}
+.team-picture {
+    display: block;
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; /*brs*/
+    margin-bottom: 15px;
+}
+.team-title, .team-text {
+    color: #f7fdfe;
+}
+.team-text {
+    font-style: italic;
+}
+.team-list {
+    margin-bottom: 100px;
+}
+.btn {
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    color: #f7fdfe;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid #f9fbfb;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+.btn:hover {
+    background-color: #f7fdfe;
+    color: #0ebfdd;
+}
+
