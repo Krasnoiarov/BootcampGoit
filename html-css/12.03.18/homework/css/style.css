@@ -15,6 +15,7 @@
 }
 .header1 {
     /*background-color: #f1ff97;*/
+    max-width: 1200px;
     margin-bottom: 100px;
 }
 .clearfix:after {

@@ -1,0 +1,138 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; /*bszbb*/
+    margin: 0;
+    padding: 0;
+}
+.wrap1 {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background-color: #60f7ff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ul {
+    list-style: none;
+}
+.navigator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 100px;
+}
+.menu-item {
+    background-color: #00ff05;
+    float: left;
+    font-weight: bold;
+    padding: 10px 18px;
+    position: relative;
+}
+.menu-menu {
+    background-color: #00ff05;
+}
+.item-item {
+    width: 88px;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.item-item:hover {
+    background-color: #009304;
+}
+.menu-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.menu-item:hover {
+    background-color: #009304;
+}
+.menu-item:hover > .menu-menu {
+    display: block;
+}
+.item-item:hover > .list {
+    display: block;
+}
+.list {
+    background-color: #00ff05;
+    display: none;
+    position: absolute;
+    top: 67%;
+    right: -148px;
+}
+.list-item:hover {
+    background-color: #009304;
+}
+.list-item {
+    width: 148px;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** {*/
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+/*.clearfix:after {*/
+    /*display: block;*/
+    /*content: "";*/
+    /*clear: both;*/
+/*}*/
+                    /*13/03/2018year. Module 4*/
+/*1) static       top*/
+/*2) fixed         right*/
+/*3) absolut          bottom*/
+/*4) relative     left*/
+
+   /*Fixed ( любой блок будет иметь свою фиксированную позиция в независимости от скролла  )*/
+    /*pistion: fixed;*/
+    /*top: 0*/
+    /*left: 0   Фиксированная высота!)*/
+
+    /*position:relative;*/
+    /*top: 150;*/
+/*Не выпадает из потока документа, двигается поверх всех блоков)*/
+
+                        /*Позиционирование:)*/
+    /*position: sticky*/
+
