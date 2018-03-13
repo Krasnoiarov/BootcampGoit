@@ -1,0 +1,79 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; /*bszbb*/
+    margin: 0;
+    padding: 0;
+}
+.wrap1 {
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.3) , rgba(234, 145, 34, 0.3)), url(../img/img1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*padding-top: 40px;*/
+/*padding-bottom: 40px;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** {*/
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+/*.clearfix:after {*/
+    /*display: block;*/
+    /*content: "";*/
+    /*clear: both;*/
+/*}*/
+                    /*13/03/2018year. Module 4*/
+/*1) static       top*/
+/*2) fixed         right*/
+/*3) absolut          bottom*/
+/*4) relative     left*/
+
+   /*Fixed ( любой блок будет иметь свою фиксированную позиция в независимости от скролла  )*/
+    /*pistion: fixed;*/
+    /*top: 0*/
+    /*left: 0   Фиксированная высота!)*/
+
+    /*position:relative;*/
+    /*top: 150;*/
+/*Не выпадает из потока документа, двигается поверх всех блоков)*/
+
+                        /*Позиционирование:)*/
+    /*position: sticky*/
+

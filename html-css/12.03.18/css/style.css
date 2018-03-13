@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 90%;
+    margin: auto;
+    background-color: #a2ffe2;
+}
+main {
+    background-color: #ff0a13; /*Cvet fona bloka*/
+    /*background-image: url();*/
+    /*!*background-position: center center;(top,bottom)*! Центр картинки отобразит*/
+    /*background-repeat: no-repeat;*/ /*Что бы картинка не пповторялась*/
+    /*background-repeat: space; Макс.колво картинок на ширину блока*/
+    /*background-position: ключевые слова;*/
+    /*!*-webkit-background-size: cover;*! contain*/
+    /*background-size: cover; contain
+    Вместить картинку в границы всего блока */
+    /*background-attachment: fixed; При скролле фон остается на месте(Красиво)*/
+    /*-webkit-background-clip: padding-box;*/
+    /*-moz-background-clip: content-box;*/
+    /*background-clip: border-box; Фон всередине бlока*/
+
+
+}
+.box1 {
+    background-color: #ffb6c9;
+    width: 50%;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-indent: 20px; /*Абзац*/
+    line-height: 50px; /*Otstyp*/
+
+}
+footer {
+    text-align: center;
+}
+button {
+    width: 5%;
+    text-align: center;
+    margin-top: 10px;
+    background: #ffb23d;
+    padding: 20px;
+}
