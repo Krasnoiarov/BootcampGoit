@@ -19,7 +19,7 @@ header {
 ul {
     text-align: center;
 }
-ul>li {
+li {
     display: inline-block;
     margin-right: 40px;
     text-decoration: none;
