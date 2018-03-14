@@ -1,0 +1,153 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; /*bszbb*/
+    margin: 0;
+    padding: 0;
+}
+.wrap1 {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    border: 10px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ul {
+    list-style: none;
+}
+.navigator {
+    background-color: #292929;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 483px;
+    height: 50px;
+    color: white;
+}
+.menu-item {
+    height: 50px;
+    background-color: #292929;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 18px;
+    position: relative;
+    text-transform: uppercase;
+}
+.menu-menu {
+    background-color: #00f5ff;
+}
+.item-item {
+    width: 220px;
+    /*text-align: center;*/
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.item-item:hover {
+    background-color: #acffe7;
+}
+.menu-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.menu-item:hover {
+    background-color: #00f5ff;
+}
+.menu-item:hover > .menu-menu {
+    display: block;
+}
+.item-item:hover > .list {
+    display: block;
+}
+.list {
+    background-color: #00f5ff;
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: -178px;
+}
+.item-item:after {
+     content: "+";
+     color: white;
+    padding-left: 68px;
+ }
+.list-item:after {
+    content: "+";
+    color: white;
+    padding-left: 36px;
+}
+.list-item:hover {
+    background-color: #acffe7;
+}
+.list-item {
+    width: 178px;
+    /*text-align: center;*/
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** {*/
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+/*.clearfix:after {*/
+    /*display: block;*/
+    /*content: "";*/
+    /*clear: both;*/
+/*}*/
+                    /*13/03/2018year. Module 4*/
+/*1) static       top*/
+/*2) fixed         right*/
+/*3) absolut          bottom*/
+/*4) relative     left*/
+
+   /*Fixed ( любой блок будет иметь свою фиксированную позиция в независимости от скролла  )*/
+    /*pistion: fixed;*/
+    /*top: 0*/
+    /*left: 0   Фиксированная высота!)*/
+
+    /*position:relative;*/
+    /*top: 150;*/
+/*Не выпадает из потока документа, двигается поверх всех блоков)*/
+
+                        /*Позиционирование:)*/
+    /*position: sticky*/
+
