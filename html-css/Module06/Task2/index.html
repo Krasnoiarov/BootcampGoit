@@ -6,7 +6,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Awesome Page</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto:300,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Euphoria+Script" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -16,34 +19,34 @@
         <div class="container">
             <header class="header">
                 <a href="#" class="logo">Mountains</a>
-                <nav class="nav nav">
+                <nav class="nav">
                     <ul class="menu">
-                        <li class="menu-item">our story
-                            <a href="" class="menu-link">
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">our story
                         </a>
                         </li>
-                        <li class="menu-item">services
-                            <a href="" class="menu-link">
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">services
                         </a>
                         </li>
-                        <li class="menu-item">work
-                            <a href="" class="menu-link">
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">work
                         </a>
                         </li>
-                        <li class="menu-item">journal
-                            <a href="" class="menu-link">
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">journal
                         </a>
                         </li>
-                        <li class="menu-item">contact
-                            <a href="" class="menu-link">
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">contacts
                         </a>
                         </li>
-                        <li class="menu-item">work
-                            <a href="" class="menu-link">
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">work
                         </a>
                         </li>
-                        <li class="menu-item">journal
-                            <a href="" class="menu-link">
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">journal
                         </a>
                         </li>
                     </ul>
@@ -54,25 +57,27 @@
     </div>
     <div class="container">
         <section class="info">
-            <h1 class="info-title">travel with us to the Mountains</h1>
+            <h1 class="info-title">travel with us <span class="info-span">to the Mountains</span></h1>
             <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur</p>
             <button class="info-btn">order now</button>
         </section>
     </div>
 </div>
 <!--.wrapper>.container>section.about>h2.about-title+p.text+button.about-btn+img.about-pict$*2-->
+<!--Секция О Нас-->
 <div class="wrapper">
     <div class="container">
         <section class="about">
-            <h2 class="about-title">About us</h2>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis illum iste molestias mollitia, nam nulla optio quia sit.</p>
-            <button class="about-btn">read more</button>
+            <h2 class="about-title">about us</h2>
+            <p class="text about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis illum iste molestias mollitia, nam nulla optio quia sit.</p>
+            <button class="info-btn about-btn">read more</button>
             <img src="./img/photo1.jpg" alt="image" class="about-pict1">
             <img src="./img/photo2.jpg" alt="image" class="about-pict2">
         </section>
     </div>
 </div>
-<!--.wrapper-journal>.container>section.journal>h2.title+.journal-body>article.journal-article*3>.icon-container>img.journal-img+i^h4.journal-article-caption+h3.journal-article-title+p.text-->
+<!--.wrapper-journal>.container>section.journal>h2.title+.journal-body>article.journal-article*3>.icon-container>img.journal-img+i^article-content+h4.journal-article-caption+h3.journal-article-title+p.text-->
+<!--Секция журналов-->
 <div class="wrapper-journal">
     <div class="container">
         <section class="journal">
@@ -81,29 +86,169 @@
                 <article class="journal-article">
                     <div class="icon-container">
                         <img src="./img/journal1.jpg" alt="image" class="journal-img">
-                        <i></i>
+                        <i class="fab fa-gratipay"></i>
                     </div>
-                    <h4 class="journal-article-caption">tree</h4>
-                    <h3 class="journal-article-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, porro?</h3>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi doloremque eum id nam omnis porro quasi quisquam similique tempore? Consectetur fuga magnam omnis repudiandae.</p>
+                    <div class="article-content">
+                        <h4 class="journal-article-caption">tree</h4>
+                        <h3 class="journal-article-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, porro?</h3>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi doloremque eum id nam omnis porro quasi quisquam similique tempore? Consectetur fuga magnam omnis repudiandae.</p>
+                    </div>
                 </article>
-                <article class="journal-article">
+                <article class="journal-article reverse">
                     <div class="icon-container">
                         <img src="./img/journal2.jpg" alt="image" class="journal-img">
-                        <i></i>
+                        <i class="fab fa-envira"></i>
                     </div>
-                    <h4 class="journal-article-caption">love</h4>
-                    <h3 class="journal-article-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, eius?</h3>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque culpa fuga impedit minus natus necessitatibus numquam quibusdam quisquam voluptas voluptatum. Esse excepturi optio pariatur rerum.</p>
+                    <div class="article-content">
+                        <h4 class="journal-article-caption">love</h4>
+                        <h3 class="journal-article-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, eius?</h3>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque culpa fuga impedit minus natus necessitatibus numquam quibusdam quisquam voluptas voluptatum. Esse excepturi optio pariatur rerum.</p>
+                    </div>
                 </article>
                 <article class="journal-article">
                     <div class="icon-container">
                         <img src="./img/journal3.jpg" alt="image" class="journal-img">
-                        <i></i>
+                        <i class="fas fa-tint"></i>
                     </div>
-                    <h4 class="journal-article-caption">water</h4>
-                    <h3 class="journal-article-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, assumenda?</h3>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis consectetur culpa, earum excepturi id ipsum necessitatibus numquam praesentium quam, ratione recusandae repellat tempore voluptatum!</p>
+                    <div class="article-content">
+                        <h4 class="journal-article-caption">water</h4>
+                        <h3 class="journal-article-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, assumenda?</h3>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis consectetur culpa, earum excepturi id ipsum necessitatibus numquam praesentium quam, ratione recusandae repellat tempore voluptatum!</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
+</div>
+<!--.wrapper-work>.container>section.work>h2.title+.work-body>article.work-article*4>.gray>.hexagon>i^^h3.work-title+p.work-text-->
+<div class="wrapper-work">
+    <div class="container">
+        <section class="work">
+            <h2 class="title">how we work</h2>
+            <div class="work-body">
+                <article class="work-article">
+                    <div class="gray">
+                        <div class="hexagon"><i></i></div>
+                    </div>
+                    <h3 class="work-title">Lorem ipsum dolor sit amet.</h3>
+                    <p class="work-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione.</p>
+                </article>
+                <article class="work-article">
+                    <div class="gray">
+                        <div class="hexagon"><i></i></div>
+                    </div>
+                    <h3 class="work-title">Lorem ipsum dolor sit amet.</h3>
+                    <p class="work-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora?</p>
+                </article>
+                <article class="work-article">
+                    <div class="gray">
+                        <div class="hexagon"><i></i></div>
+                    </div>
+                    <h3 class="work-title">Lorem ipsum dolor sit amet.</h3>
+                    <p class="work-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt.</p>
+                </article>
+                <article class="work-article">
+                    <div class="gray">
+                        <div class="hexagon"><i></i></div>
+                    </div>
+                    <h3 class="work-title">Lorem ipsum dolor sit amet.</h3>
+                    <p class="work-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem?</p>
+                </article>
+            </div>
+        </section>
+    </div>
+</div>
+<!--.wrapper-travel>.container>section.travel>h2.title+.travel-body>article.travel-article*5>header.article-header>i*4^h3.travel-caption+p.travel-text+footer.article-footer>span.price+span.new-price-->
+<!--Секция Travel-->
+<div class="wrapper-travel">
+    <div class="container">
+        <section class="travel">
+            <h2 class="title">travel with us</h2>
+            <div class="travel-body">
+                <article class="travel-article">
+                    <header class="article-header"><i></i><i></i><i></i><i></i></header>
+                    <h3 class="travel-caption">Carpathian</h3>
+                    <p class="travel-text">Lorem ipsum dolor sit amet, consectetur.</p>
+                    <footer class="article-footer">
+                        <span class="price">3150$</span>
+                        <span class="new-price">$793</span>
+                    </footer>
+                </article>
+                <article class="travel-article">
+                    <header class="article-header"><i></i><i></i><i></i><i></i></header>
+                    <h3 class="travel-caption">Alps</h3>
+                    <p class="travel-text">Lorem ipsum dolor sit amet, consectetur.</p>
+                    <footer class="article-footer">
+                        <span class="price">3150$</span>
+                        <span class="new-price">$1893</span>
+                    </footer>
+                </article>
+                <article class="travel-article">
+                    <header class="article-header"><i></i><i></i><i></i><i></i></header>
+                    <h3 class="travel-caption">Pyrenees</h3>
+                    <p class="travel-text">Lorem ipsum dolor sit amet, consectetur.</p>
+                    <footer class="article-footer">
+                        <span class="price">3150$</span>
+                        <span class="new-price">$2593</span>
+                    </footer>
+                </article>
+                <article class="travel-article">
+                    <header class="article-header"><i></i><i></i><i></i><i></i></header>
+                    <h3 class="travel-caption">Rocky</h3>
+                    <p class="travel-text">Lorem ipsum dolor sit amet, consectetur.</p>
+                    <footer class="article-footer">
+                        <span class="price">3150$</span>
+                        <span class="new-price">$2123</span>
+                    </footer>
+                </article>
+                <article class="travel-article">
+                    <header class="article-header"><i></i><i></i><i></i><i></i></header>
+                    <h3 class="travel-caption">Kavkaz</h3>
+                    <p class="travel-text">Lorem ipsum dolor sit amet, consectetur.</p>
+                    <footer class="article-footer">
+                        <span class="price">3150$</span>
+                        <span class="new-price">$593</span>
+                    </footer>
+                </article>
+            </div>
+        </section>
+    </div>
+</div>
+<!--.wrapper-gallery>.container>section.gallery>h2.title+.gallery-body>img.gallery[src="./img/gallery.jpg" alt="gallery-photo"]*6-->
+<!--Секция Галлерея-->
+<div class="wrapper-gallery">
+    <div class="container">
+        <section class="gallery">
+            <h2 class="title">gallery</h2>
+            <div class="gallery-body">
+                <img src="./img/gallery.jpg" alt="gallery-photo" class="gallery">
+                <img src="./img/gallery2.jpg" alt="gallery-photo" class="gallery">
+                <img src="./img/gallery3.jpg" alt="gallery-photo" class="gallery">
+                <img src="./img/gallery6.jpg" alt="gallery-photo" class="gallery">
+                <img src="./img/gallery5.jpg" alt="gallery-photo" class="gallery">
+                <img src="./img/gallery4.jpg" alt="gallery-photo" class="gallery">
+            </div>
+        </section>
+    </div>
+</div>
+<!--.wrapper-clients>.container>section.clients>h2.title+.clients-body>article.article-clients*2>p.text-clients+img.clients-photo[src="./img/man1.jpg" alt="clients"]+p.clients-info>span.clients-name-->
+<!--Секция Клиенты -->
+<div class="wrapper-clients">
+    <div class="container">
+        <section class="clients">
+            <h2 class="title">our clients say</h2>
+            <div class="clients-body">
+                <article class="article-clients">
+                    <p class="text-clients">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi consequatur deserunt dolore ducimus eius eligendi eum, excepturi exercitationem hic impedit ipsum laudantium minima nisi non officia officiis pariatur possimus praesentium repellat saepe sed temporibus unde?</p>
+                    <img src="./img/man1.jpeg" alt="clients" class="clients-photo">
+                    <p class="clients-info">
+                        <span class="clients-name">pavlin yaroslav</span>Web designer</p>
+                </article>
+                <article class="article-clients">
+                    <p class="text-clients">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa explicabo, facere fugiat illo molestiae nulla. At consequuntur corporis doloremque dolores dolorum esse, illo inventore itaque nisi quisquam repellendus repudiandae sapiente sed similique voluptas. Ex, unde!</p>
+                    <img src="./img/man2.jpeg" alt="clients" class="clients-photo">
+                    <p class="clients-info">
+                        <span class="clients-name">john scot</span>the fringe</p>
                 </article>
             </div>
         </section>
