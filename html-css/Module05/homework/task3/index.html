@@ -13,7 +13,7 @@
 <!--Меню сайта-->
 <div class="wrap1">
    <div class="container">
-       <header class="header-top">
+       <header class="header-top clearfix">
         <a href="" class="logo">mart</a>
         <nav class="navigator">
             <ul class="menu">
@@ -39,51 +39,70 @@
         </nav>
        </header>
    </div>
+</div>
 
     <!--.wrap2>section>.container-info>article.info>h1.title+p.title-info+button.btn-info*2-->
     <!--Заголовок-->
     <div class="wrap2">
-        <div class="container">
+        <div class="container clearfix">
             <div class="container-info">
                 <article class="info">
                     <h1 class="title">affordable paris tours</h1>
                     <p class="title-info">city tours/tour ticket/tour guides</p>
-                    <button class="btn-info">&#60;</button>
-                    <button class="btn-info">&#62;</button>
+                    <button class="btn-left">&#60;</button>
+                    <button class="btn-right">&#62;</button>
                 </article>
             </div>
         </div>
     </div>
-</div>
+
 <!--.wrap3>.container>section.collection>h2.title-coll+.photo*4>article.photo-coll>img.item[./img/image1.jpg]+p.text+p.price-->
 <!--Основная часть сайта-->
 <div class="wrap3">
     <div class="container">
         <section class="collection">
             <h2 class="title-coll">new collection</h2>
-            <div class="photo">
+            <div class="photo clearfix">
                 <article class="photo-coll">
-                    <img src="./img/man1.jpg" alt="photo-item" class="item">
-                    <p class="text">blue tshort</p>
-                    <p class="price">$56</p>
+                   <div class="cover">
+                       <span class="icon icon-1"></span>
+                       <span class="icon icon-2"></span>
+                       <span class="icon icon-3"></span>
+                       <button class="btn-hover">add to cart</button>
+                   </div>
+                       <img src="./img/man1.jpg" alt="photo-item" class="item">
+                        <p class="text">blue tshort</p>
+                        <p class="price">$56</p>
                 </article>
-            </div>
-            <div class="photo">
                 <article class="photo-coll">
-                    <img src="./img/man2.jpg" alt="photo-item" class="item">
+                    <div class="cover">
+                        <span class="icon icon-1"></span>
+                        <span class="icon icon-2"></span>
+                        <span class="icon icon-3"></span>
+                        <button class="btn-hover">add to cart</button>
+                    </div>
+                    <img src="./img/girl1.jpg" alt="photo-item" class="item">
                     <p class="text">woman tshort</p>
                     <p class="price">$56</p>
                 </article>
-            </div>
-            <div class="photo">
                 <article class="photo-coll">
-                    <img src="./img/girl1.jpg" alt="photo-item" class="item">
+                    <div class="cover">
+                        <span class="icon icon-1"></span>
+                        <span class="icon icon-2"></span>
+                        <span class="icon icon-3"></span>
+                        <button class="btn-hover">add to cart</button>
+                    </div>
+                    <img src="./img/man2.jpg" alt="photo-item" class="item">
                     <p class="text">yellow tshort</p>
                     <p class="price">$56</p>
                 </article>
-            </div>
-            <div class="photo">
                 <article class="photo-coll">
+                    <div class="cover">
+                        <span class="icon icon-1"></span>
+                        <span class="icon icon-2"></span>
+                        <span class="icon icon-3"></span>
+                        <button class="btn-hover">add to cart</button>
+                    </div>
                     <img src="./img/girl2.jpg" alt="photo-item" class="item">
                     <p class="text">cool lingerie</p>
                     <p class="price">$56</p>
@@ -93,10 +112,8 @@
     </div>
 </div>
 <!--Copyright-->
-<footer>
-    <div class="container-footer">
-    <p class="footer">all rights reserved &#169; dokan | designed <span class="theme">ThemenGraph</span></p>
-    </div>
+<footer class="footer-copyright">
+    <p class="footer-text">all rights reserved &#169; dokan | designed<a href="#" class="graph"> <span class="theme">ThemenGraph</span></a></p>
 </footer>
 </body>
 </html>
