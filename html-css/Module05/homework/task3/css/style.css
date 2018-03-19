@@ -101,21 +101,18 @@ font-family: 'Roboto', sans-serif;*/
     text-transform: uppercase;
 }
 .btn-left {
-    float: left;
     background-color: rgba(122,197,178,0.75);
     width: 104px;
     height: 104px;
     font-size: 60px;
     color: white;
     border: 1px solid #7ac5b2;
-    margin-bottom: 30px;
     position: absolute;
     top: 38%;
     left: -13px;
     border-radius: 5px;
 }
 .btn-right {
-    float: right;
     background-color: rgba(122,197,178,0.75);
     width: 104px;
     height: 104px;
