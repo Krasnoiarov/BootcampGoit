@@ -106,9 +106,10 @@ font-family: 'Roboto', sans-serif;*/
 .photo-about {
     display: flex;
     flex-wrap: wrap;
-    min-height: 260px;
+    min-height: 210px;
     /*align-items: center;*/
     justify-content: space-around;
+    align-content: space-between;
 }
 
 .title-article {
