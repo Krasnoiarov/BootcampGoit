@@ -1,0 +1,58 @@
+@import "variable.css";
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; /*bszbb*/
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+}
+    /*font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+body {
+    background-color: green;
+}
+.wrapper {
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+}
+.container {
+    box-shadow: 0 0 20px 3px rgba(51,51,51,1);
+    padding: 5px;
+    text-align: center;
+}
+.img, .title, .btn {
+    transition: 2s;
+}
+.img {
+    transition: 2s;
+}
+.container:hover > .img {
+    transform: rotate(5deg);
+}
+.btn {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    padding: 1.2em 2em ;
+    background-color: rgba(86, 114, 221,0.5);
+    margin: auto;
+}
+.container:hover > .title {
+    font-size: 30px;
+    color: deeppink;
+}
+.container:hover > .btn {
+    transform: scale(3.5,1);
+    background-color: deeppink;
+}
+

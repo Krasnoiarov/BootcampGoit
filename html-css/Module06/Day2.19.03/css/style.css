@@ -1,0 +1,199 @@
+@import "var.css";
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.simple {
+    background: white;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+.relief {
+    background-color: #3a50d9;
+    color: #e0eff2;
+    font: italic bold 100px Georgia, Serif;
+    text-shadow: -4px 3px 0 #3a50d9, -14px 7px 0 #0a0e27;
+}
+.vamp {
+    height: 68px;
+    color: #92a5de;
+    background: red;
+    text-shadow:0px 0px 0 rgb(137,156,213),1px 1px 0 rgb(129,148,205),2px 2px 0 rgb(120,139,196),3px 3px 0 rgb(111,130,187),4px 4px 0 rgb(103,122,179),5px 5px 0 rgb(94,113,170),6px 6px 0 rgb(85,104,161),7px 7px 0 rgb(76,95,152),8px 8px 0 rgb(68,87,144),9px 9px 0 rgb(59,78,135),10px 10px 0 rgb(50,69,126),11px 11px 0 rgb(42,61,118),12px 12px 0 rgb(33,52,109),13px 13px 0 rgb(24,43,100),14px 14px 0 rgb(15,34,91),15px 15px 0 rgb(7,26,83),16px 16px 0 rgb(-2,17,74),17px 17px 0 rgb(-11,8,65),18px 18px 0 rgb(-19,0,57),19px 19px 0 rgb(-28,-9,48), 20px 20px 0 rgb(-37,-18,39),21px 21px 20px rgba(0,0,0,1),21px 21px 1px rgba(0,0,0,0.5),0px 0px 20px rgba(0,0,0,.2);
+}
+.box h3{
+    text-align:center;
+    position:relative;
+    top:80px;
+}
+.box {
+    width:70%;
+    height:200px;
+    background:#FFF;
+    margin:40px auto;
+}
+.effect1{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 19px 20px 20px 14px #777;
+}
+
+/*TRANSFORM*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700,800);
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F3F4;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #4c4c4c;
+    font-weight: 600;
+    border-bottom: 1px solid #ccc;
+}
+
+h2, h4 {
+    font-weight: 400;
+    color: #4d4d4d;
+}
+
+.card {
+    display: inline-block;
+    margin: 10px;
+    background: #fff;
+    padding: 15px;
+    min-width: 200px;
+    -webkit-box-shadow: 0 3px 5px #ddd;
+    box-shadow: 0 3px 5px #ddd;
+    color: #555;
+}
+.card .box {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background: #ddd;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px #ccc inset;
+    box-shadow: 0 0 5px #ccc inset;
+}
+.card .box .fill {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: #03A9F4;
+    opacity: .5;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #ccc;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.card p {
+    margin: 25px 0 0;
+}
+
+.rotate:hover .fill {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.rotateX:hover .fill {
+    -webkit-transform: rotateX(45deg);
+    transform: rotateX(45deg);
+}
+
+.rotateY:hover .fill {
+    -webkit-transform: rotateY(45deg);
+    transform: rotateY(45deg);
+}
+
+.rotateZ:hover .fill {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.scale:hover .fill {
+    -webkit-transform: scale(2, 2);
+    transform: scale(2, 2);
+}
+
+.scaleX:hover .fill {
+    -webkit-transform: scaleX(2);
+    transform: scaleX(2);
+}
+
+.scaleY:hover .fill {
+    -webkit-transform: scaleY(2);
+    transform: scaleY(2);
+}
+
+.skew:hover .fill {
+    -webkit-transform: skew(45deg, 45deg);
+    transform: skew(45deg, 45deg);
+}
+
+.skewX:hover .fill {
+    -webkit-transform: skewX(45deg);
+    transform: skewX(45deg);
+}
+
+.skewY:hover .fill {
+    -webkit-transform: skewY(45deg);
+    transform: skewY(45deg);
+}
+
+.translate:hover .fill {
+    -webkit-transform: translate(45px, 1em);
+    transform: translate(45px, 1em);
+}
+
+.translateX:hover .fill {
+    -webkit-transform: translateX(45px);
+    transform: translateX(45px);
+}
+
+.translateY:hover .fill {
+    -webkit-transform: translateY(45px);
+    transform: translateY(45px);
+}
+
+.matrix:hover .fill {
+    -webkit-transform: matrix(2, 2, 0, 2, 45, 0);
+    transform: matrix(2, 2, 0, 2, 45, 0);
+}
+
+.perspective-100 .box {
+    -webkit-perspective: 100px;
+    perspective: 100px;
+}
+
+.perspective-200 .box {
+    -webkit-perspective: 200px;
+    perspective: 200px;
+}
+
+.to-100-0-0 {
+    -webkit-transform-origin: 100% 0 0;
+    transform-origin: 100% 0 0;
+}
+
+.to-0-100-0 {
+    -webkit-transform-origin: 0 100% 0;
+    transform-origin: 0 100% 0;
+}
+
+
+
+/*lorem lroreeeeeeeeeeeeee*/
+/*eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+/*eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerrrrrrrrrr*/
+

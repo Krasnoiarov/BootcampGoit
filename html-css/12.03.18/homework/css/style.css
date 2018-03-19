@@ -11,7 +11,6 @@
     width: 1200px;
     margin: auto;
     padding-top: 40px;
-    padding-bottom: 600px;
 }
 .header1 {
     /*background-color: #f1ff97;*/
@@ -58,7 +57,6 @@
 }
 .title {
     width: 500px;
-    height: 34px;
     font-size: 48px;
     color: #515151;
     margin: auto;
@@ -81,33 +79,35 @@
     margin-top: 35px;
 }
 .photo {
+    width: 1000px;
     display: block;
     content: "";
-    margin-left: 104px;
+    margin: auto
+}
+.products {
     margin-bottom: 104px;
 }
 .info {
     float: left;
     width: 169px;
-    height: 40px;
     background-color: #323232;
     text-transform: uppercase;
     font-weight: 700;
     font-family: 'Oswald', sans-serif;
     color: white;
     font-size: 14pt;
-    padding: 5px 0 5px 7px;
+    padding: 8px;
     /*position: absolute;*/
     /*top: 577px;*/
 }
 .price {
     float: right;
     width: 54px;
-    height: 40px;
+    /*height: 40px;*/
     background-color: #8c8c8c;
     color: white;
-    font-size: 16pt;
-    padding: 7px 0 4px 10px;
+    font-size: 14pt;
+    padding: 10px;
 }
 .item-product {
     float: left;
@@ -119,20 +119,23 @@
 .item-product:nth-of-type(4n+4) {
     margin-right: 0;
 }
-.article:nth-of-type(1n+5) {
+.item-product:nth-of-type(1n+5) {
     margin-bottom: 0;
 }
 .title-news {
     width: 317px;
-    height: 34px;
+    /*height: 34px;*/
 }
 .news-photo {
     width: 350px;
-    height: 262px;
+    /*height: 262px;*/
+}
+.news {
+    margin-bottom: 40px;
 }
 .news-photo {
     width: 347px;
-    height: 428px;
+    /*height: 428px;*/
     float: left;
     margin-right: 30px;
 }
@@ -147,12 +150,12 @@
     margin-left: 41px;
 }
 .news-info {
-    padding: 15px 0;
+    /*padding: 15px 0;*/
+    margin: 15px 0;
     color: #555252;
     font-size: 14pt;
     font-weight: 700;
     text-transform: capitalize;
-    margin-bottom: 15px;
 }
 .news-info:after {
     display: block;

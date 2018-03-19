@@ -1,0 +1,213 @@
+@import "variable.css";
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; /*bszbb*/
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    list-style: none;
+    text-decoration: none;
+    /*font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+}
+.wrapper {
+    background-color: rgba(255,255,255,0);
+}
+/*header*/
+.header-top {
+    display: flex;
+    min-height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 490px;
+}
+.logo {
+    color: #95e1d3;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: var(--text-monst);
+}
+.item-link {
+    color: #95e1d3;
+    font-size: 14px;
+    font-family: var(--text-monst);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.item-link:hover {
+    color: #f38181;
+    border-bottom: 3px solid #f38181;
+    transition: 0.4s;
+}
+
+
+/*section about*/
+.title-info {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0 25px;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: var(--text-kaush);
+}
+.title {
+    /*display: flex;*/
+    flex-basis: 314px;
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--text-monst);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 90px;
+}
+.title:after {
+    display: block;
+    content: "";
+    margin: 40px auto 90px;
+    width: 60px;
+    height: 3px;
+    /*margin: 40px auto 90px;*/
+    background-color: #f38181;
+}
+.icon-little {
+    display: flex;
+    position: absolute;
+    top: 7%;
+    left: -52px;
+   align-items: center;
+    flex-basis: 32px;
+}
+/*.image-wrap {*/
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-between;*/
+/*}*/
+.photo-about {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 260px;
+    justify-content: space-between;
+}
+
+.title-article {
+    flex-basis: 108px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: var(--text-monst);
+    margin-bottom: 25px;
+    font-weight: 400;
+    color: #333333;
+}
+.text {
+    flex-basis: 250px;
+    font-size: 15px;
+    font-family: var(--text-roboto);
+    color: #b6b6b6;
+}
+.about-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    width: 328px;
+    height: 106px;
+}
+
+/*section photo*/
+.our-team {
+    margin-bottom: 50px;
+}
+.menu-photo {
+    display: none;
+    width: 382px;
+    height: 467px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, rgba(239,139,138,0.8),rgba(228,207,129,0.8));
+    -webkit-box-shadow: 10px 10px 3px 5px rgba(149,225,211,0.7);
+    -moz-box-shadow: 10px 10px 3px 5px rgba(149,225,211,0.7);
+    box-shadow: 10px 10px 3px 5px rgba(149,225,211,0.7);
+}
+.icon {
+    width: 70px;
+    height: 70px;
+    background-color: #fce38a;
+    position: absolute;
+    top: 43%;
+    left: 16%;
+    border: 1px solid #f38181;
+    background-image: url(../icon/facebook.png);
+    background-position: center center;
+}
+.icon-2 {
+    background-image: url(../icon/twitter.png);
+    position: absolute;
+    top: 43%;
+    left: 34%;
+}
+.icon-3 {
+    background-image: url(../icon/pinterest.png);
+    position: absolute;
+    top: 43%;
+    left: 52%;
+}
+.icon-4 {
+    background-image: url(../icon/instagram.png);
+    position: absolute;
+    top: 43%;
+    left: 70%;
+}
+.icon:hover {
+    background-color: #f38181;
+}
+.team-article:hover > .menu-photo {
+    display: block;
+}
+.mini-text {
+    text-align: center;
+    font-size: 15px;
+    font-family: var(--text-roboto);
+    font-weight: 400;
+    color: #b6b6b6;
+    margin: 0 auto 95px;
+    max-width: 939px;
+}
+.photo-article {
+    display: flex;
+    justify-content: space-between;
+}
+.team-article {
+    height: 528px;
+    position: relative;
+}
+.photo-title {
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: var(--text-monst);
+    margin: 10px auto 10px;
+}
+.photo-text {
+    font-size: 14px;
+    font-family: var(--text-monst);
+    font-weight: 300;
+    color: #b6b6b6;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+    margin-bottom: 85px;
+}
+.container-footer {
+    border-top: 2px solid #dcffb2;
+}
