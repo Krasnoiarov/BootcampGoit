@@ -60,9 +60,10 @@ font-family: 'Roboto', sans-serif;*/
 
 /*section about*/
 .title-info {
-    display: flex;
-    justify-content: center;
-    margin: 80px 0 25px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    text-align: center;
+    padding: 80px 0 25px;
     font-weight: 700;
     font-size: 24px;
     font-family: var(--text-kaush);
@@ -70,13 +71,12 @@ font-family: 'Roboto', sans-serif;*/
 
 .title {
     /*display: flex;*/
-    flex-basis: 314px;
+    /*flex-basis: 314px;*/
     text-align: center;
     font-size: 30px;
     font-family: var(--text-monst);
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 90px;
 }
 
 .title:after {
@@ -108,15 +108,16 @@ font-family: 'Roboto', sans-serif;*/
     flex-wrap: wrap;
     min-height: 260px;
     /*align-items: center;*/
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .title-article {
+    display: flex;
+    align-items: center;
     flex-basis: 108px;
     font-size: 14px;
     text-transform: uppercase;
     font-family: var(--text-monst);
-    margin-bottom: 25px;
     font-weight: 400;
     color: #333333;
 }
@@ -134,12 +135,12 @@ font-family: 'Roboto', sans-serif;*/
     justify-content: space-between;
     position: relative;
     width: 301px;
-    height: 106px;
+    /*height: 106px;*/
 }
 
 /*section photo*/
 .our-team {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .menu-photo {
