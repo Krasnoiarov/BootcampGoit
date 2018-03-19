@@ -107,6 +107,7 @@ font-family: 'Roboto', sans-serif;*/
     display: flex;
     flex-wrap: wrap;
     min-height: 260px;
+    /*align-items: center;*/
     justify-content: space-between;
 }
 
@@ -132,7 +133,7 @@ font-family: 'Roboto', sans-serif;*/
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
-    width: 328px;
+    width: 301px;
     height: 106px;
 }
 

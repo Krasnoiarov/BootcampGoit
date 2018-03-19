@@ -16,16 +16,17 @@ font-family: 'Roboto', sans-serif;*/
     content: "";
     clear: both;
 }
-.wrap1 {
-    margin-top: 44px;
-    /*background-color: red;*/
-}
+/*.wrap1 {*/
+    /*margin-top: 44px;*/
+    /*!*background-color: red;*!*/
+/*}*/
 .container {
     max-width: 1100px;
     margin: auto;
 }
 .header-top{
-    margin-bottom: 35px;
+    padding-top: 44px;
+    padding-bottom: 35px;
     /*margin-top: 20px;*/
 }
 .logo{
@@ -75,19 +76,19 @@ font-family: 'Roboto', sans-serif;*/
     background-position: top center;
 }
 .container-info {
+    padding-top: 218px;
     position: relative;
     padding-bottom: 280px;
 }
 .title {
-    padding: 218px 0 28px;
-    max-width: 766px;
+    margin-bottom: 28px;
+    text-align: center;
     font-family: var(--text-roboto);
     font-weight: bold;
     color: white;
     text-transform: uppercase;
     font-size: 60px;
     display: block;
-    margin: auto;
 }
 .title-info {
     font-family: var(--text-roboto);
@@ -160,7 +161,7 @@ font-family: 'Roboto', sans-serif;*/
     margin-right: 26px;
     float: left;
     width: 255px;
-    height: 322px;
+    /*height: 322px;*/
 }
 .photo-coll:last-child {
     margin-right: 0;
