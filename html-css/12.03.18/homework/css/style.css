@@ -147,7 +147,8 @@
     height: 262px;
 }
 .news-news {
-    margin-left: 41px;
+    max-width: 1150px;
+    margin: auto;
 }
 .news-info {
     /*padding: 15px 0;*/
