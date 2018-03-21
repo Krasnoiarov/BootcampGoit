@@ -1,0 +1,79 @@
+@import "var.css";
+@import "fonts.css";
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*margin*/
+/*Горизонтальный margin для блоков задается в процентах. Если бы по макету у нас были зазоры между articles и сайдбарами, и допустим articles был бы 46% шириной. Тогда ширины блоков выглядели бы следующим образом.*/
+
+                                                                                                                                                       /*articles - 46%*/
+/*left-sidebar - 25%*/
+/*right-sidebar - 25%*/
+/*articles левый и правый margin был бы по 2%*/
+/*Итого занято 100% ширины content. Конечно, если мы используем Flexbox, то достаточно задать justify-content: space-between, явно задавать margin не надо. Зазоры между колонками все равно будут по 2%.*/
+
+
+
+/*Применяется для перехода экрана на мобильную или планшетную версию*/
+.container {
+    min-width: 320px;
+    max-width: 960px;
+    /*height: 100vh;*/
+    margin: auto ;
+    background-color: orange;
+    padding: 0 1rem;
+}
+.responsive {
+    width: 100%;
+    height: 12rem;
+    margin-bottom: 1rem;
+}
+.box1 {
+    background-color: red;
+}
+.box2 {
+    background-color: green;
+}
+.box3 {
+    background-color: purple;
+}
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+    .responsive {
+        flex-basis: 32%;
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 968px) {
+    .container {
+        flex-direction: row-reverse;
+    }
+}
+@media (min-width: 1440px) {
+    .box1 {
+        background-color: white;
+    }
+    .box2 {
+        background-color: gold;
+    }
+    .box3 {
+        background-color: chocolate;
+    }
+}
+/*@media (min-width: 768px) {*/
+    /*.container {*/
+        /*display: flex;*/
+        /*justify-content: space-between;*/
+    /*}*/
+    /*.content {*/
+        /*display: none;*/
+    /*}*/
+
+/*}*/
