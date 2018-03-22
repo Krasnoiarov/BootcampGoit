@@ -1,0 +1,41 @@
+@import "var.css";
+@import "fonts.css";
+@import "header.css";
+@import "reset.css";
+@import "footer.css";
+.wrapper-img {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/gallery-bg.jpg');
+}
+.gallery {
+    margin: 2rem 0 1.3rem;
+}
+.gallery-text {
+    text-align: center;
+}
+.gallery-img {
+    transition: 2s;
+}
+.gallery-img:hover {
+    box-shadow: .5rem .5rem .2rem 0.1rem #66ffb7;
+    transform: translate(0,-0.5rem);
+}
+.gallery-img:nth-child(odd):hover {
+    box-shadow: 0 .5rem .2rem 0.1rem #66ffb7;
+    transform: translate(0,-0.5rem);
+}
+.gallery-img:last-child:hover {
+    box-shadow: .5rem .5rem .2rem 0.1rem #66ffb7;
+    transform: translate(0,-0.5rem);
+}
+@media (min-width: 768px) {
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .gallery-img {
+        width: 50%;
+        align-self: flex-start;
+        flex-grow: 1; /*Заполняет свободное пространство на всю ширину*/
+    }
+
+}

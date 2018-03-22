@@ -1,5 +1,7 @@
 :root {
-    --text: 'Merriweather', serif;
+    --text: 'Aquafina Script', serif;
+    --text-roboto: 'Roboto', sans-serif;
+    --text-monsterat: 'Montserrat', sans-serif;
     --btn-color: #36aeea;
 
 

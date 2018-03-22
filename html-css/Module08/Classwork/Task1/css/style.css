@@ -156,6 +156,13 @@
         width: 39%;
         height: 50vh;
     }
-
-
+}
+.container-photo {
+    min-width: 320px;
+    max-width: 1300px;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
 }

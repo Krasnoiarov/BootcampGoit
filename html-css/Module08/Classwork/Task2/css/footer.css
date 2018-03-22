@@ -1,0 +1,34 @@
+.wrapper-footer {
+    background-color: #000000;
+}
+.footer {
+    padding: 5rem 0;
+}
+.article-title-color {
+    color: #ffffff;
+}
+.footer-article {
+    margin-bottom: 3.25rem;
+}
+.footer-article:last-child {
+    margin-bottom: 0;
+}
+.contact-item {
+    color: #777777;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin-bottom: 0.625em;
+}
+.contact-item:last-child {
+    margin-bottom: 0;
+}
+@media (min-width: 768px) {
+    .footer {
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer-article {
+        flex-basis: 45%;
+        margin-bottom: 0;
+    }
+}
