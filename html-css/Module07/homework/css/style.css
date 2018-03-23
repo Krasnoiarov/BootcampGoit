@@ -118,7 +118,7 @@
 }
 .contact-form-text, .contact-form-email, .subject-form {
     width: 100%;
-    color: #cacaca;
+    color: #4d4d4d;
     padding: 1.2rem;
     border: 2px solid #413d46;
     border-radius: 3px;
@@ -126,18 +126,18 @@
     font-family: var(--text-monsterat);
     font-weight: 700;
 }
-.contact-form-text:hover  {
-    border: 3px solid #00ff79;
-}
-.contact-form-email:hover {
-    border: 3px solid #00ff79;
-}
-.subject-form:hover {
-    border: 3px solid #00ff79;
-}
-.comments:hover {
-    border: 3px solid #00ff79;
-}
+/*.contact-form-text:hover  {*/
+    /*border: 3px solid #00ff79;*/
+/*}*/
+/*.contact-form-email:hover {*/
+    /*border: 3px solid #00ff79;*/
+/*}*/
+/*.subject-form:hover {*/
+    /*border: 3px solid #00ff79;*/
+/*}*/
+/*.comments:hover {*/
+    /*border: 3px solid #00ff79;*/
+/*}*/
 .comments {
     flex-basis: 30.44rem;
     padding: 1.3rem 0 0 1.3rem;
@@ -163,4 +163,10 @@
 }
 .footer {
     padding-bottom: 7rem;
+}
+input[required]:invalid, textarea[required]:invalid {
+    outline: 1.2px solid #ff5c50;
+}
+input[required]:valid, textarea[required]:valid {
+    outline: 1.2px solid #00ff05;
 }
