@@ -1,15 +1,24 @@
 /* aguafina-script-regular - latin */
 @font-face {
+    font-family: 'Wisdom';
+    src: url('../font/Wisdom Script AI/Wisdom Script AI.woff') format('woff'),
+url('../font/Wisdom Script AI/Wisdom Script AI.woff2')format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pinyon';
+    src: url('../font/pinyon/pinyon-script-v7-latin-regular.woff2') format('woff2'), url('../font/pinyon/pinyon-script-v7-latin-regular.woff') format('woff'), url('../font/pinyon/pinyon-script-v7-latin-regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
     font-family: 'Aguafina Script';
     font-style: normal;
     font-weight: 400;
-    src: url('../font/aguafina-script-v6-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local('Aguafina Script Regular'), local('AguafinaScript-Regular'),
-    url('../font/aguafina-script-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../font/aguafina-script-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../font/aguafina-script-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
-    url('../font/aguafina-script-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../font/aguafina-script-v6-latin-regular.svg#AguafinaScript') format('svg'); /* Legacy iOS */
+    url('../font/aguafina-script-v6-latin-regular.woff2') format('woff2')
+    url('../font/aguafina-script-v6-latin-regular.woff') format('woff'),
+    url('../font/aguafina-script-v6-latin-regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'SENYUM'; /*Название шрифта*/
