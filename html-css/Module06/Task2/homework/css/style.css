@@ -77,12 +77,13 @@ font-family: 'Roboto', sans-serif;*/
     font-family: var(--text-monst);
     font-weight: bold;
     text-transform: uppercase;
+    margin-bottom: 110px;
 }
 
 .title:after {
     display: block;
     content: "";
-    margin: 40px auto 90px;
+    margin: 40px auto 0;
     width: 60px;
     height: 3px;
     /*margin: 40px auto 90px;*/
@@ -108,7 +109,7 @@ font-family: 'Roboto', sans-serif;*/
 }
 
 .title-article {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     /*display: flex;*/
     /*align-items: center;*/
     /*flex-basis: 108px;*/
@@ -123,7 +124,6 @@ font-family: 'Roboto', sans-serif;*/
 }
 .text {
     /*flex-basis: 250px;*/
-    padding-bottom: 20px;
     font-size: 15px;
     font-family: var(--text-roboto);
     color: #b6b6b6;
@@ -132,8 +132,12 @@ font-family: 'Roboto', sans-serif;*/
 .about-info {
     display: flex;
     flex-basis: 30%;
+    margin-bottom: 20px;
     justify-content: space-between;
     /*align-content: center;*/
+}
+.about-info:nth-child(n+4) {
+    margin-bottom: 0;
 }
 
 /*section photo*/

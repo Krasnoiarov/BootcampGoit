@@ -50,6 +50,9 @@ font-family: 'Roboto', sans-serif;*/
     font-weight: 700;
     padding-top: 6px;
 }
+.menu-item:last-child {
+    margin-right: 0;
+}
 /*ul{*/
     /*float: right;*/
 /*}*/

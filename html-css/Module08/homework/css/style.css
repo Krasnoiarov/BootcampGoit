@@ -1,0 +1,238 @@
+@import "var.css";
+@import "fonts.css";
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.wrapper-bg {
+    background-image: url('../img/bg-main.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 1rem 0 8.438rem;
+}
+.container {
+    min-width: 20rem;
+    max-width: 64rem;
+    margin: auto;
+    padding: 0 1rem;
+}
+.header {
+    margin-bottom: 2.5rem;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 80%;
+    margin: 0 auto 7.25rem;
+    /*padding: 2.125rem 3.188rem 7.25rem;*/
+}
+.btn {
+    display: block;
+    margin: auto;
+    padding: 0.5rem 1.1rem;
+    color: #ffffff;
+    text-transform: capitalize;
+    background-color: transparent;
+    font-size: 1rem;
+    font-family: var(--text-monsterat);
+    font-weight: 700;
+    /*border: none;*/
+    /*transition: 0.3s;*/
+    border: 2px solid transparent;
+    /*border-radius: 20px;*/
+    outline: none;
+}
+.btn:hover {
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+}
+.logo {
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-family: var(--text-monsterat);
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.title {
+    font-size: 1.85rem;
+    color: #ffffff;
+    font-family: var(--text-monsterat);
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.text-title {
+    /*width: 80%;*/
+    font-size: 1.1rem;
+    font-family: var(--text-roboto);
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    margin: 2rem 0;
+}
+.btn-title {
+    display: block;
+    font-size: 0.9rem;
+    font-family: var(--text-monsterat);
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #ff4e50;
+    margin: auto;
+    padding: 0.7rem 2.8rem;
+    border: 1px solid #ff4e50;
+    border-radius: 20px;
+}
+
+
+/*section photo*/
+.holiday-section {
+    padding: 4rem 0 3.75rem;
+    /*margin: auto;*/
+}
+.holiday {
+    font-size: 1.3rem;
+    font-family: var(--text-monsterat);
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+    /*margin-bottom: 1.375rem;*/
+}
+.art-holiday {
+    width: 36%;
+    padding-top: 1rem;
+    margin: auto;
+}
+    .icon-icon{
+        width: 67%;
+        margin: auto;
+    position: relative;
+}
+/*.img-img {*/
+    /*position: relative;*/
+/*}*/
+.art-holiday:last-child {
+    margin-bottom: 0;
+}
+.holiday-img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+.icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+}
+.name {
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: var(--text-monsterat);
+    font-weight: 700;
+    margin: 1.363rem 0;
+    color: #333333;
+    text-transform: capitalize;
+}
+.text {
+    font-size: 0.9rem;
+    font-family: var(--text-roboto);
+    font-weight: 300;
+    color: #989898;
+    text-align: center;
+}
+.btn-hol {
+    display: block;
+    font-size: 0.8rem;
+    font-family: var(--text-monsterat);
+    font-weight: 700;
+    color: #ff4e50;
+    background-color: transparent;
+    margin: auto;
+    padding: 0.7rem 4.5rem;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    outline: none;
+}
+.btn-hol:hover {
+    background-color: #ff4e50;
+    color: #ffffff;
+    /*outline: none;*/
+}
+.holiday-photo {
+    padding-bottom: 1.7rem;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 0 3rem;
+    }
+    .header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .nav {
+        margin: 0;
+        flex-basis: 30%;
+    }
+    .main {
+        padding: 10rem 0 15rem;
+    }
+    .art-holiday:nth-child(n+3) {
+        margin-bottom: 0;
+    }
+    .title {
+        font-size: 3.4rem;
+    }
+    .text-title {
+        font-size: 1.5rem;
+    }
+    .holiday-photo {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 82%;
+        margin: auto;
+    }
+    .art-holiday {
+        width: 34%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 80%;
+        padding: 2rem 0 0;
+    }
+    .art-holiday {
+        margin-bottom: 0;
+    }
+    .title {
+        font-size: 3rem;
+    }
+    .text-span {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .holiday-photo {
+        width: 100%;
+    }
+    .art-holiday {
+        width: 25%;
+    }
+    /*.icon-icon {*/
+        /*position: absolute;*/
+        /*top: 40%;*/
+        /*right: 25%;*/
+    /*}*/
+}

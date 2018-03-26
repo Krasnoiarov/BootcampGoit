@@ -50,7 +50,8 @@
     color: #fed136;
 }
 .main {
-    padding-bottom: 7.628rem;
+    margin-top: 8rem;
+    padding-bottom:  7.628rem;
 }
 .menu {
     display: flex;
@@ -63,7 +64,8 @@
     font-family: var(--text-roboto);
     font-weight: 700;
     text-align: center;
-    padding: 8rem 0 1.438rem;
+    margin-bottom: 1.4rem;
+    /*padding: 8rem 0 1.438rem;*/
 }
 .about-title {
     text-align: center;
@@ -96,6 +98,7 @@
     color: #a2a2a2;
 }
 .title-two {
+    margin-bottom: 1rem;
     color: #ffffff;
 }
 .wrapp2 {
@@ -151,7 +154,7 @@
 
 .contact-form-btn {
     display: block;
-    margin: auto;
+    margin: 1.8rem auto 0;
     background-color: #fed136;
     color: #ffffff;
     padding: 1.5rem 2.938rem;
@@ -160,10 +163,9 @@
     font-family: var(--text-roboto);
     font-weight: 700;
     border-radius: 5px;
-    margin-top: 1.8rem;
 }
 .footer {
-    padding-bottom: 7rem;
+    padding: 8rem 0 7rem;
 }
 input[required]:invalid, textarea[required]:invalid {
     outline: 1.2px solid #ff5c50;
